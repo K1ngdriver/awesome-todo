@@ -10,7 +10,9 @@
     </q-list>
   </q-page>
 </template>
-
+<div>
+  <q-btn round color="primary" fab icon="add" @click="addTask" />
+</div>
 <script>
 import Task from 'components/TaskComponent.vue'
 import { mapGetters } from 'vuex';
